@@ -18,7 +18,7 @@
                             <Label Grid.Row="1" Grid.Column="0" Text="{Binding Category}" FontSize="14" TextColor="Gray" />
                             <Label Grid.Row="2" Grid.Column="0" Text="{Binding Description}" FontSize="12" MaxLines="2" />
                             <Label Grid.Row="3" Grid.Column="0" Text="{Binding Instructions}" FontSize="12" MaxLines="3" />
-                            <Button Grid.Row="0" Grid.Column="1" Text="Edit" BackgroundColor="Orange" TextColor="White" Clicked="OnEditRecipeClicked" CommandParameter="{Binding}" />
+                            <Button Grid.Row="0" Grid.Column="1" Text="Edit" BackgroundColor="SteelBlue" TextColor="White" Clicked="OnEditRecipeClicked" CommandParameter="{Binding}" />
                             <Button Grid.Row="0" Grid.Column="2" Text="Delete" BackgroundColor="Red" TextColor="White" Clicked="OnDeleteRecipeClicked" CommandParameter="{Binding}" />
                         </Grid>
                     </DataTemplate>
