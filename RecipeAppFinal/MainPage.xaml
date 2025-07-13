@@ -9,6 +9,11 @@
         <VerticalStackLayout Grid.Row="1">
             <Button  Text="Add Recipe" TextColor="#F9F9F9" Margin="10" BackgroundColor="SteelBlue" Clicked="AddNewRecipe_Clicked"/>
             <BoxView HeightRequest="1" BackgroundColor="#D1D5DB" Margin="10"/>
+        <VerticalStackLayout>
+            <Label Grid.Row="0" Grid.Column="0" Text="Categories" TextColor="#F9F9F9" Padding="10" HorizontalTextAlignment="Center"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Starter" BackgroundColor="SteelBlue" TextColor="White" Padding="10" Clicked="OnEditRecipeClicked" CommandParameter="{Binding}" />
+            <Button Grid.Row="0" Grid.Column="1" Text="Main Course" BackgroundColor="SteelBlue" TextColor="White" Padding="10" Clicked="OnEditRecipeClicked" CommandParameter="{Binding}" />
+        </VerticalStackLayout>
         </VerticalStackLayout>
         <CollectionView Grid.Row="2" x:Name="RecipesCollectionView" ItemsSource="{Binding Recipes}">
                 <CollectionView.ItemTemplate>
