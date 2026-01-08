@@ -5,7 +5,7 @@
              Title="Add Recipe">
     <StackLayout Padding="20" Spacing="15">
         <Entry x:Name="NameEntry" Placeholder="Recipe Name" />
-        <Entry x:Name="CategoryEntry" Placeholder="Category" />
+        <Entry x:Name="CategoryEntry" Placeholder=" Recipe Category" />
         <Editor x:Name="DescriptionEditor" Placeholder="Short Description" HeightRequest="100" />
         <Editor x:Name="InstructionsEditor" Placeholder="Instructions" HeightRequest="150" />
         <!-- NEW -->
