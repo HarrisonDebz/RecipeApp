@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RecipeAppFinal.Pages.CreateRecipePage"
-             Title="Create Recipe">
+             Title="Add Recipe">
     <StackLayout Padding="20" Spacing="15">
         <Entry x:Name="NameEntry" Placeholder="Recipe Name" />
         <Entry x:Name="CategoryEntry" Placeholder="Category" />
